@@ -2,7 +2,7 @@ import TransactionHistory from './components/TransactionHistory/TransactionHisto
 import transactions from './components/TransactionHistory/transactions.json';
 import profile from './components/Profile/profile.json';
 import  Profile  from './components/Profile/Profile.jsx';
-import friends from '/';
+import friends from './components/FriendListItem/friends.json'
 import FriendList from './components/FriendList/FriendList';
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         avatar={profile.avatar}
         stats={profile.stats}
       /> 
-      <FriendList friends={friendsList} />
+      <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
 
     </div>
