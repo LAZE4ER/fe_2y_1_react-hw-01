@@ -1,0 +1,29 @@
+.profile{
+    height: 400px;
+    width: 300px;
+    border: 2px black solid;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.stats{
+    margin-top: 30px;
+    font-weight: 500;
+    align-items: self-end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.avatar{
+    width: 60px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+    justify-content: center;
+}
