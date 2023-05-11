@@ -1,11 +1,11 @@
-import FriendListIem from '../FriendListItem/FriendListItem'
-import friends from '../FriendListItem/friends.json'
-function FriendList (friends){
+import FriendListItem from '../FriendListItem/FriendListItem'
+function FriendList ({friends}){
     return(
         <ul>
         {friends.map((friend) => (
-            <FriensListItem
+            <FriendListItem
               key={friend.id}
+              id={friend.id}
               isOnline={friend.isOnline}
               name={friend.name}
               avatar={friend.avatar}
