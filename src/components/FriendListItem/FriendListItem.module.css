@@ -1,0 +1,14 @@
+.online{
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    background-color: green;
+}
+.offline{
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    background-color: red;
+}
